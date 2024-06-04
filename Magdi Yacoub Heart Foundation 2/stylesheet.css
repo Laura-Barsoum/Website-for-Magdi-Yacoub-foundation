@@ -1,0 +1,1135 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+header, nav {
+    background-color: #333;
+    color: azure;
+    text-align: center;
+    z-index: 1000;
+    width: 100%;
+    position: fixed; /* Make the header fixed at the top */
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+#hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.gif-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+        }
+        .img-heart {
+            width: 100%;
+            height: auto;
+        }
+#about {
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+
+.paragraph-container {
+    text-align: center;
+}
+
+.paragraph-container p {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    vertical-align: top;
+}
+
+#projects {
+    padding: 80px 0;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+}
+
+.project-card .card {
+    width: 100%;
+}
+
+.project-card .card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card .card-title {
+    margin-bottom: 10px;
+}
+
+#contact {
+    padding: 80px 0;
+    background-color: #e9ecef;
+}
+
+#footer {
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+#contactForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contactForm .form-group {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+}
+
+#contactForm label {
+    display: block;
+}
+
+.learn-more-button,
+.donate-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover,
+.donate-button:hover {
+    background-color: #0056b3;
+}
+
+#about {
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+
+.paragraph-container {
+  text-align: center; /*Align paragraphs within the container */
+}
+
+.paragraph-container p {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1%; /* Adjust the margin for spacing between paragraphs */
+  vertical-align: top; /* Align paragraphs at the top */
+}
+#projects {
+    padding: 80px 0;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    flex: 0 0 30%; /* Adjust the width of each project card */
+    margin-bottom: 20px;
+}
+
+.project-card .card {
+    width: 100%;
+}
+
+.project-card .card img {
+    width: 100%;
+    height: auto;
+}
+
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card .card-title {
+    margin-bottom: 10px;
+}
+
+
+#contact {
+    padding: 80px 0;
+    background-color: #e9ecef;
+}
+
+#contact {
+    padding: 80px 0;
+    background-color: #e9ecef;
+}
+
+#contactForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contactForm .form-group {
+    width: calc(50% - 10px); /* Adjust the width based on your design preferences */
+    margin-bottom: 20px;
+}
+
+#contactForm label {
+    display: block;
+}
+
+	* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+ 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+ 
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+ 
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+ 
+.menu li {
+    margin-left: 20px;
+}
+ 
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+#hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f9f9f9;
+}
+ 
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+ 
+#mission #journey {
+    padding: 40px 0;
+}
+ 
+#mission #journey h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ 
+#team {
+    padding: 40px 0;
+}
+ 
+#team h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ 
+.team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ 
+.team-member {
+    text-align: center;
+    margin: 20px;
+}
+ 
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+ 
+.team-member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+ 
+.team-member p {
+    font-size: 14px;
+    color: #888;
+}
+ 
+#contact {
+    background-color: #fff;
+    padding: 40px 0;
+}
+ 
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ 
+#contactForm {
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+#contactForm .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+ 
+#contactForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+ 
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ 
+#contactForm button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Black background with opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 5% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#teamMemberModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    color: white;
+    transition: opacity 0.5s ease;
+}
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.testimonial-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.testimonial-content p {
+    font-size: 18px;
+}
+
+.testimonial-content .author {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    opacity: 0; /* Initially hide the box */
+    margin-top: 500px; /* Create space for scrolling */
+}
+
+.spacer {
+    height: 1000px; /* Create space for scrolling */
+}
+
+
+
+.introduction,
+.donation-options,
+.secure-donation,
+.transparency {
+    padding-top: 150px; 
+}
+.introduction2{
+    padding-top: 300px; 
+}
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Hide all slides by default */
+.mySlides {
+    display: none;
+}
+
+/* Fade animation for slides */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Position the slideshow behind the content */
+#hero {
+    position: relative;
+    z-index: 1;
+}
+
+.slideshow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    color: white;
+}
+
+.pauseButton {
+    position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.overlay-text h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.overlay-text p {
+    font-size: 18px;
+}
+
+/* Navigation arrows */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+.prev {
+    left: 15px;
+}
+
+.next {
+    right: 15px;
+}
+
+/* Add hover effect to arrows */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      height: 500px; /* Set a fixed height for the slideshow */
+      overflow: hidden;
+    }
+
+    .slideshow-container img {
+      width: 100%;
+      height: auto;
+    }
+ .quiz-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .question-container {
+            margin-bottom: 20px;
+        }
+
+        .option {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .option input[type="radio"] {
+            display: none; /* Hide the default radio button */
+        }
+
+        .option label {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border: 2px solid #ced4da;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .option label:hover {
+            background-color: #e9ecef;
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .result {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+/* CSS for selected option */
+.option input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+}
+.auction-item {
+    position: relative;
+    display: inline-block;
+    margin: 10px; /* Decrease margin */
+    padding: 10px; /* Decrease padding */
+    background-color: #f9f9f9;
+    border-radius: 5px; /* Adjust border radius */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adjust box shadow */
+    transition: transform 0.3s ease;
+}
+
+.auction-content {
+  text-align: center; /* Center text horizontally */
+}
+
+.auction-item p {
+  margin-bottom: 10px; /* Adds space below the paragraph */
+}
+
+/* Add space between image and text */
+.auction-item img {
+  margin-bottom: 10px; /* Adjust this value as needed */
+}
+
+/* Optional: Add space between text elements */
+.auction-item h3,
+.auction-item p {
+  margin-bottom: 5px; /* Adjust this value as needed */
+}
+ /* Countdown Timer Styles */
+        #countdown {
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        /* Animated Bidding Button */
+        .bid-button {
+            padding: 10px 20px;
+            background-color: #ff9900;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .bid-button:hover {
+            background-color: #ff6600;
+        }
+
+        /* Animated Item Showcase */
+        .auction-item img {
+            transition: transform 0.3s ease;
+        }
+
+        .auction-item:hover img {
+            transform: scale(1.05);
+        }
+#countdown {
+    color: red;
+}
+
+/* Hover effect for the navigation links */
+.menu a:hover {
+  color: #ff0000; /* Change color on hover */
+}
+.container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu li {
+            margin-left: 20px;
+        }
+
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .menu a:hover {
+            color: #ffcc00;
+        }
+
+        .introduction {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .donation-options {
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .donation-options h2 {
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+
+        .donation-options ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .donation-options li {
+            flex: 0 0 calc(33.333% - 40px);
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .donation-options li:hover {
+            transform: translateY(-5px);
+        }
+
+        .donation-options h3 {
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .donation-options p {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        .donation-options button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .donation-options button:hover {
+            background-color: #ffcc00;
+        }
+
+        .transparency {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .transparency h2 {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .transparency p {
+            font-size: 16px;
+        }
+ /* Parallax Scrolling */
+        .parallax {
+            background-image: url('background.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        /* Animated Graphics */
+        .animated-graphic {
+            width: 200px;
+            height: 200px;
+            animation: spin 3s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Dynamic Progress Bars */
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background-color: #f3f3f3;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background-color: #4caf50;
+            animation: fill-progress 3s ease-in-out forwards;
+        }
+
+        @keyframes fill-progress {
+            0% { width: 0; }
+            100% { width: 100%; }
+        }
+
+        /* Interactive Donation Form */
+        .interactive-form {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .interactive-form input[type="range"] {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+
+    /* Scroll Down Link */
+    .scroll-down {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    /* Auction Item Styling with Hover Effects */
+    #auction-item {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .auction-item {
+        position: relative;
+        display: inline-block;
+        margin: 20px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .auction-item:hover {
+        transform: translateY(-5px);
+    }
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    will-change: opacity, transform;
+    visibility: hidden;
+}
+
+.animate-on-scroll.active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+ /* CSS styles for the text space and sticky notes */
+        .text-space {
+            margin: 50px;
+        }
+    #sticky-container {
+            position: relative;
+            width: 100%;
+            height: 80vh; /* Reduce height to make space for the text area */
+            background-color: gray; /* Set background color to gray*/
+        }
+
+        #message {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        .sticky-note {
+            position: absolute;
+            padding: 10px;
+            background-color: yellow;
+            border: 1px solid #999;
+            cursor: move;
+            animation: bounce 0.5s infinite alternate; /* Apply animation */
+        }
+
+        /* Keyframes for the bounce animation */
+        @keyframes bounce {
+            from {
+                transform: translateY(-10px); /* Start from slightly above */
+            }
+            to {
+                transform: translateY(0); /* Bounce to original position */
+            }
+        }
+#donate-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    /* Add heart shape */
+    background-image: url('heart.svg');
+    background-size: cover;
+}
+.team-member img {
+    cursor: pointer;
+}
+.animated-background {
+    position: relative;
+    overflow: hidden;
+}
+
+.animated-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    z-index: -1;
+    animation: animateBackground 10s linear infinite;
+}
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 0 100%;
+    }
+}
+.hero-section {
+    position: relative;
+    overflow: hidden; /* Ensure the text doesn't overflow outside the section */
+}
+/* CSS styles for the hero section */
+#hero {
+    position: relative;
+    height: 100vh;
+    background-image: url('your-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Animation for the hero text */
+#hero h1 {
+    animation: slideInUp 1s ease-out;
+}
+
+/* Keyframes for the slide-in animation */
+@keyframes slideInUp {
+    0% {
+        transform: translateY(100px); /* Start below */
+        opacity: 0; /* Initially invisible */
+    }
+    100% {
+        transform: translateY(0); /* Slide in */
+        opacity: 1; /* Fade in */
+    }
+}
+
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Set a lower z-index to ensure the particles are behind the text */
+}
+
+.hero-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 36px;
+    z-index: 1; /* Ensure the text appears above the particles */
+}
+/* Style the tab buttons */
+.tablinks {
+    background-color: #f2f2f2;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+/* Change background color of the tab button when clicked */
+.tablinks:hover {
+    background-color: #ddd;
+}
+
+/* Set the active tab button */
+.tablinks.active {
+    background-color: #ccc;
+}
+/* CSS for Animation */
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(100%);
+    animation: slide-up 1s ease forwards;
+    visibility: hidden;
+}
+
+.animate-on-scroll.active {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+}
+.error {
+  color: red;
+}
+ /* Style the video container */
+        .video-container {
+            width: 800px; /* Set the width of the container */
+            height: 450px; /* Set the height of the container */
+            margin: 0 auto; /* Center the container horizontally */
+            position: relative; /* Positioning context for absolute positioning of video */
+        }
+
+        /* Style the video element */
+        video {
+            width: 100%; /* Set the width of the video to fill its container */
+            height: 100%; /* Set the height of the video to fill its container */
+            object-fit: cover; /* Ensure the video fills the container while preserving aspect ratio */
+        }
+@media only screen and (max-width: 600px) {
+.navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content {
+    align-items: flex-start;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+    nav {
+        /* Adjust navigation styles for medium-sized screens */
+        padding: 10px 20px; /* Increase padding for better spacing */
+    }
+
+    nav ul li {
+        /* Adjust navigation item styles */
+        margin-right: 15px; /* Reduce margin between navigation items */
+    }
+
+    .content {
+        /* Adjust content layout */
+        padding: 15px; /* Increase padding for better spacing */
+    }
+}

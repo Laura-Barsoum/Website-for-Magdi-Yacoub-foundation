@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now - Magdi Yacoub Foundation</title>
+    <link rel="stylesheet" href="stylesheet.css"> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>Magdi Yacoub Foundation</h1>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Testimonials.html">Testimonials</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="polls.html">Quiz</a></li>
+                    <li><a href="auction.html">Auction</a></li>
+                    <li>
+  <a href="donations%20wall.html">
+    Donations wall
+  </a>
+</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Payment</h1>
+        <p>Your support can change lives.</p>
+    </section>
+
+    <div class="container">
+        <section id="introduction2">
+            <h2>Welcome to the Donation Page</h2>
+            <p>Thank you for considering a donation to support our ongoing projects and initiatives. Your generosity makes a significant impact on our mission.</p>
+        </section>
+        
+        <section id="importance">
+            <h2>Why Your Donation Matters</h2>
+            <p>Your donation directly contributes to our efforts.</p>
+        </section>
+        
+        <section id="one-time-donation">
+            <h2>Make a Donation</h2>
+            <p>Support our cause with a one-time donation. Every contribution, no matter the amount, helps us make a difference.</p>
+            <form id="donationForm" action="process_donation.php" method="post">
+                <!-- Interactive Donation Form -->
+    <section id="donation-form" class="interactive-form">
+        <h2>Make a Donation</h2>
+        <form>
+            <input type="range" min="1" max="1000" value="500" step="10" id="donation-range">
+            <p>Choose Your Donation Amount: <span id="donation-amount">$500</span></p>
+        </form>
+    </section>
+                <h2>Payment Information</h2>
+                <label for="card_number">Card Number:</label>
+                <input type="text" id="card_number" name="card_number" placeholder="Card Number" required>
+
+                <label for="expiry_date">Expiry Date:</label>
+                <input type="text" id="expiry_date" name="expiry_date" placeholder="MM/YY" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+
+                <h3>Billing Information</h3>
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Enter your address">
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city"  placeholder="City">
+
+                <button type="submit">Submit Payment</button>
+            </form>
+            <h5 style="text-align: end"><a href="index.html">Return to home page</a></h5>
+        </section>
+
+        <section id="security">
+            <h2>Security and Trust</h2>
+            <p>We take your privacy and security seriously. Our donation portal is secure and encrypted to protect your personal and financial information.</p>
+        </section>
+        
+        <section id="thank-you">
+            <h2>Thank You for Your Support</h2>
+            <p>Thank you for your generosity and support. Your donation will make a meaningful difference in the lives of those we serve.</p>
+            <p>If you have any questions or need assistance, please don't hesitate to contact us.</p>
+        </section>
+    </div>
+<button id="donate-button"></button>
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" class="row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name:</label>
+                    <input class="form-control" id="name" name="name" placeholder="Enter name" type="text"/>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email:</label>
+                    <input class="form-control" id="email" name="email" placeholder="Enter email" type="email"/>
+                </div>
+                <div class="form-group col-12">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="form-group col-12">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center" id="footer">
+        <p>© 2024 Magdi Yacoub Foundation. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

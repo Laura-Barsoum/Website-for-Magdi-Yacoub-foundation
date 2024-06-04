@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Magdi Yacoub Foundation
+  </title>
+  <link href=stylesheet.css rel="stylesheet"/>
+ </head>
+ <body>
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+     <div class="logo">
+      <h1>
+Magdi Yacoub Foundation      </h1>
+     </div>
+     <ul class="menu">
+      <li>
+  <a href="index.html">
+    Home
+  </a>
+</li>
+           <li class="nav-item">
+      <a class="nav-link" href="About.html">
+       About
+      </a>
+      <li>
+      </li>
+      <li>
+       <a href="Testimonials.html">
+        Testimonials
+       </a>
+      </li>
+          <li class="nav-item">
+      <a class="nav-link" href="events.html">
+      Events
+      </a>
+     </li> 
+        <li> <a href="Donate.html">
+    Donations
+  </a>
+</li>
+          <li>
+        <a href="polls.html">
+     Quiz
+  </a>
+         </li>
+           <li>
+  <a href="auction.html">
+    Auction
+  </a>
+</li>
+    <li>
+  <a href="donations%20wall.html">
+    Donations wall
+  </a>
+</li>
+     </ul>
+    </div>
+   </nav>
+    <!-- Hero Section with Parallax Scrolling -->
+    <section id="hero" class="parallax">
+        <h1>Auctions for charity</h1>
+       <section id="auction-description" class="animate-on-scroll">
+    <div class="container">
+        <p>Welcome to our Auctions for Charity event! Here, you'll find a selection of unique items generously donated by our supporters. Each bid you place not only gives you the chance to win an exciting item but also helps support our cause. From signed memorabilia to exclusive experiences, there's something for everyone.</p>
+        <p>Every dollar raised through this auction goes directly to supporting the initiatives of the Magdi Yacoub Foundation, helping us continue our mission of providing life-saving medical care to those in need. Thank you for your generous support!</p>
+    </div>
+</section>
+
+    </section>
+  <!-- Countdown Timer Section -->
+    <section id="countdown">
+        <div id="time-left">Time Left: <span id="timer">10:00</span></div>
+    </section>
+   <section id="auction-item">
+    <div class="container">
+        <!-- Item 1: Ball -->
+        <div class="auction-item">
+            <img src="item.jpg" alt="Ball Image">
+            <h3>Ball</h3>
+            <p>Signed by your favorite players</p>
+            <button class="bid-button" onclick="placeBid()">Place Bid</button>
+        </div>
+
+        <!-- Item 2: Jersey -->
+        <div class="auction-item">
+            <img src="jersey.jpg" alt="Jersey Image">
+            <h3>Jersey</h3>
+            <p>Autographed by a sports celebrity</p>
+            <button class="bid-button" onclick="placeBid()">Place Bid</button>
+        </div>
+
+        <!-- Item 3: Memorabilia -->
+        <div class="auction-item">
+            <img src="memorabilia.jpg" alt="Memorabilia Image">
+            <h3>Memorabilia</h3>
+            <p>Rare collectible item</p>
+            <button class="bid-button" onclick="placeBid()">Place Bid</button>
+        </div>
+
+        <!-- Add more items as needed -->
+    </div>
+</section>
+
+         <section id="auction-item">
+        <div class="container">
+            <div class="auction-item">
+                <!-- Animated Item Showcase -->
+                <img src="item2.webp" alt="Image of tickets">
+                <h3>Experience: VIP Concert Tickets</h3>
+        <p>Get exclusive access to front-row seats and backstage passes for your favorite artist's concert.</p>
+                <!-- Interactive Bidding Feature -->
+                <button class="bid-button" onclick="placeBid()">Place Bid</button>
+            </div>
+        </div>
+    </section>
+     
+<button id="donate-button"></button>
+     
+
+    <!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form id="contactForm" class="row">
+            <div class="form-group col-md-6">
+                <label for="name">Name:</label>
+                <input class="form-control" id="name" name="name" placeholder="Enter name" type="text"/>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="email">Email:</label>
+                <input class="form-control" id="email" name="email" placeholder="Enter email" type="email"/>
+            </div>
+            <div class="form-group col-12">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="form-group col-12">
+                <button class="btn btn-primary" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="text-center" id="footer">
+   <p>
+    © 2024 Magdi Yacoub Foundation . All rights reserved.
+   </p>
+  </footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>

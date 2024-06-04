@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    <title>About Page</title>
+</head>
+<body>
+     <script src="scriptabout.js"></script>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>Magdi Yacoub Foundation</h1>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Testimonials.html">Testimonials</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="Donate.html">Donations</a></li>
+     <li>
+        <a href="polls.html">
+     Quiz
+  </a>
+         </li>
+           <li>
+  <a href="auction.html">
+    Auction
+  </a>
+</li>
+                         <li>
+  <a href="donations%20wall.html">
+    Donations wall
+  </a>
+</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+   <section id="hero">
+
+    <!-- Slideshow with overlay text -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="slide1.png" alt="Slide 1">
+            <div class="overlay-text">
+                <h2>Explore Our Journey</h2>
+                <p>Discover how we've evolved to make a lasting impact.</p>
+                   <button id="pauseButton" onclick="togglePause()">Pause</button>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <img src="slide2.png" alt="Slide 2">
+            <div class="overlay-text">
+                <h2>Meet Our Team</h2>
+                <p>Learn about the dedicated individuals behind our mission.</p>
+                <button id="pauseButton" onclick="togglePause()">Pause</button>
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <img src="slide3.jpg" alt="Slide 3">
+            <div class="overlay-text">
+                <h1>About Us</h1>
+                <p>Welcome to the Magdi Yacoub Foundation, where healthcare meets compassion, and every heartbeat counts. Founded in 2008 by the eminent cardiac surgeon, Prof. Magdi Yacoub, our foundation is a beacon of hope and healing, dedicated to making quality healthcare accessible to all.</p>
+                <button id="pauseButton" onclick="togglePause()">Pause</button>
+            </div>
+        </div>
+        <!-- Navigation arrows -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+</section>
+
+    <section id="Journey">
+        <div class="container">
+            <h2>Our Journey</h2>
+            <p>The journey began with a visionary idea — to bring world-class healthcare to those who need it most. Over the years, we have evolved, expanded, and made a lasting impact on countless lives. From humble beginnings, we have grown into a global force for positive change in the field of healthcare.</p>
+        </div>
+    </section>
+
+    <section id="mission">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p>At the Magdi Yacoub Foundation, we are driven by a singular mission: to transform lives through accessible and compassionate healthcare. Founded in 2008 by renowned cardiac surgeon Prof. Magdi Yacoub, our foundation is committed to alleviating suffering, fostering innovation, and creating sustainable healthcare solutions for communities in need.</p>
+        </div>
+        
+    </section>
+    <section id="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <div class="team-members">
+                <div class="team-member" onclick="showMemberDetails('Professor Sir Dr Magdi Yacoub', 'Director Of Research', 'Born in Egypt, Professor Yacoub completed his medical education at Cairo University in 1957. After receiving his training in London, he was appointed Assistant Professor at the University of Chicago. He spent more than 20 years as a BHF Professor of Cardiothoracic Surgery before working as a Consultant Cardiothoracic Surgeon at Royal Brompton Hospital from 2001 to 1986 and Harefield Hospital from 2001 to 1969. Over 2,500 transplant procedures have been carried out in the worlds largest heart and lung transplant programme, which was founded by Professor Yacoub. Additionally, he has created innovative procedures for a variety of intricate congenital cardiac defects.', 'team-member1.jpg')">
+                    <img alt="Team Member 1" src="team-member1.jpg"/>
+                    <h3>PROFESSOR SIR DR MAGDI YACOUB</h3>
+                    <p>Director Of Research</p>
+                    <p>Click to find out more</p>
+                </div>
+             <div class="team-member" onclick="showMemberDetails('Yasmine Aguib, Dr. rer. nat.', 'Deputy Director, Life Sciences and Molecular Research', 'Yasmine Aguib is the head of the life sciences department of the Aswan Heart Centre – Magdi Yacoub Foundation. She received her master\'s and doctoral degrees in molecular medicine and biotechnology from the Technische Universität München (Germany). She is an adjunct professor at the American University in Cairo, a Young Co-PI in the Fondation Leducq Transatlantic Networks of Excellence for Redox Regulation of Cardiomyocyte Renewal and the recipient of an Honorary Research Fellowship from the National Heart and Lung Institute at Imperial College London, UK.', 'team-member2.jpg')">
+    <img alt="Team Member 2" src="team-member2.jpg"/>
+    <h3>YASMINE AGUIB, DR. RER. NAT.</h3>
+    <p>Deputy Director, Life Sciences and Molecular Research</p>
+                 <p>Click to find out more</p>
+</div>
+
+
+<div class="team-member" onclick="showMemberDetails('Ahmed Elguindy MSc, MD, MRCP, FACC', 'Clinical Deputy Director Of Research', 'Ahmed ElGuindy is the Chief of the Department of Cardiology at the Magdi Yacoub Foundation - Aswan Heart Centre and a Consultant Cardiologist. In addition, he holds visiting assistant professor status in the American University of Cairo\'s School of Sciences and Engineering and is an Honorary Senior Lecturer at the National Heart and Lung Institute, Imperial College London, UK. Dr. ElGuindy completed his postgraduate studies at Cairo University, where he also earned master\'s and doctoral degrees in cardiovascular medicine.', 'team-member3.jpg')">
+    <img alt="Team Member 3" src="team-member3.jpg"/>
+    <h3>AHMED ELGUINDY MSC,MD,MRCP,FACC</h3>
+    <p>Clinical Deputy Director Of Research</p>
+    <p>Click to find out more</p>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for showing member details -->
+    <div id="memberModal" class="modal">
+        <div class="modal-content">
+            <div id="memberDetails">
+                <!-- Member details will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+    <button id="donate-button"></button>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form id="contactForm" class="row">
+                <div class="form-group col-md-6">
+                    <label for="name">Name:</label>
+                    <input class="form-control" id="name" name="name" placeholder="Enter name" type="text"/>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email:</label>
+                    <input class="form-control" id="email" name="email" placeholder="Enter email" type="email"/>
+                </div>
+                <div class="form-group col-12">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" name="message" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="form-group col-12">
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center" id="footer">
+        <p>© 2024 Magdi Yacoub Foundation. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
